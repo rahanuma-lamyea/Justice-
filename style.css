@@ -1,0 +1,18 @@
+.banner{
+  background: linear-gradient(180deg, rgb(17,17,17), rgba(17,17,17,0) 100%), url('banner.png');
+  background-size: cover;
+  background-position: center;
+}
+.card:hover{
+background: linear-gradient(180.00deg, rgb(243, 243, 243),rgba(243, 243, 243, 0) 100%);
+transition: 0.5s;
+}
+.client{
+border-radius: 8px;
+background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url("banner.png");
+background-size: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+@import "Tailwind"
